@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  @apply
+    pb-4
+    border-b-2 border-gray-200
+    flex items-center gap-1 
+    my-10 mx-auto 
+    max-w-5xl;
+}
+
+main nav {
+  @apply border-0;
+  
+}
+
+.main-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
